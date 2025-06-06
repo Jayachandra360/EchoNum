@@ -9,30 +9,46 @@
     "phone": "",
     "description": "I'm an Android developer based in Hyderabad, India, focused on creating privacy-centric tools. EchoNum is designed to enhance user control over app internet access, aiming to improve data privacy and battery efficiency.",
     "webpageUrl": {
-      "url": "https://github.com/jayachandrareddy/echonum"
+      "url": "https://github.com/Jayachandra360/EchoNum",
+      "wellKnown": "https://jayachandrareddy.github.io/.well-known/funding-manifest-urls"
     }
   },
   "projects": [
     {
       "guid": "echonum",
       "name": "EchoNum",
-      "description": "EchoNum is an Android application that allows users to restrict internet access for selected apps exclusively to their foreground usage. Utilizing Android's VPN and accessibility services, it ensures that controlled apps have internet access only when actively in use, thereby enhancing privacy and conserving data and battery life.",
+      "description": "EchoNum is an Android app that restricts internet access for selected apps to only when they are in the foreground. It uses VPN and accessibility services without root, increasing privacy, saving data, and preserving battery life.",
       "webpageUrl": {
-        "url": "https://github.com/jayachandrareddy/echonum"
+        "url": "https://github.com/Jayachandra360/EchoNum",
+        "wellKnown": "https://jayachandrareddy.github.io/.well-known/funding-manifest-urls"
       },
       "repositoryUrl": {
-        "url": "https://github.com/jayachandrareddy/echonum"
+        "url": "https://github.com/Jayachandra360/EchoNum",
+        "wellKnown": "https://jayachandrareddy.github.io/.well-known/funding-manifest-urls"
       },
       "licenses": ["spdx:MIT"],
       "tags": ["android", "privacy", "vpn", "data-saver", "battery-optimization"]
     }
   ],
   "funding": {
+    "channels": [
+      {
+        "guid": "Karnataka bank",
+        "type": "Bank",
+        "address": "jayachandrareddy9676@gmail.com",
+        "description": "Support development via Karnataka bank."
+      }
+    ],
     "plans": [
       {
-        "amount": 10000,
-        "currency": "USD",
-        "description": "Development and testing of the application, user interface enhancements, security audits, and marketing efforts."
+        "guid": "main-dev-plan",
+        "status": "active",
+        "name": "EchoNum Development Plan",
+        "description": "Development and testing of the application, UI enhancements, security audits, and marketing efforts.",
+        "amount": 500000,
+        "currency": "INR",
+        "frequency": "one-time",
+        "channels": ["Karnataka bank"]
       }
     ]
   }
