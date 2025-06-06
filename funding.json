@@ -1,8 +1,8 @@
-Andriod App:
+Andriod App Name Is(EchoNum):
 📄 Technical Report: Foreground-Only Internet Access Control App
 
 **Prepared for:** Jayachandra
-**Email:** [jayachandrareddy9676@gmail.com](mailto:jayachandrareddy@gmail.com)
+**Email:** jayachandrareddy9676@gmail.com
 **Date:** June 6, 2025
 
 🔧 Project Overview
@@ -10,7 +10,6 @@ Andriod App:
 This Android application empowers users to restrict internet access for selected apps exclusively to their foreground usage. When a controlled app is active on the screen, it has internet access; once it moves to the background, its internet connectivity is automatically disabled. This functionality is achieved without requiring root access, utilizing Android's VPN and accessibility services.
 
 🛠️ Key Features & Logic
-
 1. **Foreground Access Only**
 
 * **Logic:** Internet access is granted to selected apps solely during their active foreground usage. Once the app is minimized or sent to the background, its internet access is revoked.
@@ -39,7 +38,7 @@ This Android application empowers users to restrict internet access for selected
   * Multiple apps are selected for control.
   * Turning off the master switch lifts all restrictions, and all apps regain unrestricted internet access.
 
-#### 4. **Uninterrupted Call & SMS Support (VPN Bypass)**
+4. **Uninterrupted Call & SMS Support (VPN Bypass)**
 
 * **Logic:** Even with VPN-based control active, the system intelligently bypasses VPN routing for phone and VoIP calls and SMS, ensuring calls and messages are never blocked or delayed.
 
@@ -59,9 +58,7 @@ This Android application empowers users to restrict internet access for selected
 
 * **System App Exclusions:** Ensures essential system services like com.android.phone and com.android.messaging are excluded from VPN control to prevent disruption of core functionalities.
 
----
-
-### 📈 Benefits
+📈 Benefits
 
 * **Data Savings:** Prevents selected apps from consuming data in the background.
 
@@ -89,8 +86,6 @@ For further information or inquiries, please contact Jayachandra at [jayachandra
 [4]: https://en.wikipedia.org/wiki/Mobicip?utm_source "Mobicip"
 
 Why this app useful:
-Here's a shorter, easier-to-understand explanation:
-
 
 - This app is great because it only lets the internet run when you're actively using the app.
 
